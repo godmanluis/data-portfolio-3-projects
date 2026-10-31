@@ -1,0 +1,25 @@
+# Sales dashboard logic example
+# This script demonstrates how a sales dataset can be transformed into KPI-ready outputs.
+
+import pandas as pd
+
+
+def summarize_sales(df):
+    summary = df.groupby("region", as_index=False).agg(
+        total_revenue=("revenue", "sum"),
+        units_sold=("units", "sum"),
+        avg_order_value=("revenue", "mean"),
+    )
+    return summary
+
+
+if __name__ == "__main__":
+    sample_df = pd.DataFrame(
+        {
+            "region": ["North", "South", "East", "West"],
+            "revenue": [15000, 12000, 17000, 14000],
+            "units": [220, 180, 240, 210],
+        }
+    )
+
+    print(summarize_sales(sample_df))
