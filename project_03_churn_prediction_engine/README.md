@@ -1,38 +1,41 @@
 # Project 2: Real-Time Web Data Acquisition Pipeline
 
 ## Business Challenge
-The organization needed current market and competitor information but lacked a reliable, scalable way to collect and standardize it without manual effort.
+The business needed more current market and competitor intelligence but lacked a scalable way to collect that data consistently. Manual monitoring created delays and incomplete visibility into pricing, demand, and external market movement.
 
 ## Objectives
-- Automate web data collection
-- Clean and normalize incoming information
-- Store structured outputs for analysis
-- Build a reproducible pipeline for recurring monitoring
+- automate recurring web data collection
+- normalize and clean incoming information
+- turn raw online content into usable analytical data
+- create a reliable workflow that supports downstream reporting
 
 ## Tools
 - Python
 - Requests
 - BeautifulSoup
 - Pandas
-- SQLite or PostgreSQL
+- SQLite / PostgreSQL
 
 ## Workflow
-1. Pull source data from target web pages or endpoints
-2. Extract required fields
-3. Clean and validate content
-4. Store output in a structured format
-5. Prepare for dashboards or analysis
+1. retrieve target web content
+2. parse relevant fields and signals
+3. clean duplicate, missing, or inconsistent records
+4. store standardized output for analysis
+5. use the data in dashboards or operational reviews
 
 ## Example Use Cases
-- Pricing intelligence
-- Market monitoring
-- Competitor tracking
-- Demand and trend observation
+- pricing intelligence
+- competitor monitoring
+- demand tracking
+- market trend analysis
 
 ## Business Impact
-This project reflects practical data engineering capability: turning raw, noisy online data into clean, usable information for operational decisions.
+This project shows my ability to design practical automation systems that improve data freshness and reduce manual burden. It reflects the kind of operational thinking employers value when they need reliable, scalable data pipelines.
 
-## Suggested Next Steps
-- Add a sample pipeline script
-- Include raw and cleaned sample output files
-- Demonstrate how output is consumed downstream
+## Relevant Skills Demonstrated
+- web scraping
+- ETL workflow design
+- data cleaning
+- automation
+- structured output generation
+- operational intelligence support

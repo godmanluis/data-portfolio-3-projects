@@ -1,19 +1,19 @@
 # Project 1: Executive Sales Performance Dashboard
 
 ## Business Challenge
-A sales team needed a clear and reliable view of performance across regions, product lines, and sales reps. Fragmented reporting made it difficult to identify issues early or make strategic decisions in time.
+A sales organization needed a consistent and executive-friendly view of performance across regions, sales reps, and product segments. The reporting process was fragmented, and strategic decisions were being made without a reliable, unified view of sales health.
 
 ## Objectives
-- Consolidate sales data into a unified view
-- Track KPIs for performance and growth
-- Identify underperforming segments
-- Build an executive-ready reporting layer
+- consolidate sales performance data into one source of truth
+- track business KPIs across revenue, activity, and growth trends
+- identify underperforming segments and opportunity areas
+- support leadership decisions with a clearer operational story
 
 ## Deliverables
-- A cleaned and structured sales dataset
-- KPI definitions and conversion logic
-- Executive dashboard or visual scorecard
-- Summary of key business findings
+- cleaned and structured sales dataset
+- KPI framework and business logic
+- performance dashboard or executive scorecard
+- summary of trends, bottlenecks, and opportunities
 
 ## Tools
 - Python
@@ -22,18 +22,27 @@ A sales team needed a clear and reliable view of performance across regions, pro
 - Power BI
 
 ## Example KPIs
-- Total revenue
-- Monthly sales trend
-- Regional performance
-- Product contribution
-- Win rate
-- Sales rep productivity
-- Pipeline coverage
+- total revenue
+- revenue trend by month
+- region-by-region performance
+- product mix contribution
+- win rate and conversion trends
+- sales rep productivity
+- pipeline coverage
+
+## Methodology
+1. Collect sales data from operational sources
+2. Clean and validate records for quality and consistency
+3. Define business metrics and executive KPIs
+4. Build structured summaries for performance evaluation
+5. Present insights in a format suitable for decision-making
 
 ## Business Impact
-This project demonstrates the ability to turn raw operational data into a decision-support tool that improves executive visibility and sales planning.
+This project demonstrates the ability to convert operational sales data into a decision-support asset. It highlights my capability to create reporting that helps leaders understand performance, isolate gaps, and make strategic adjustments faster.
 
-## Suggested Next Steps
-- Add a mock dashboard image or screenshot
-- Include sample SQL queries used for KPI logic
-- Document a data dictionary and business definitions
+## Relevant Skills Demonstrated
+- business reporting
+- KPI development
+- data cleaning and transformation
+- dashboard design thinking
+- analytical storytelling for stakeholders

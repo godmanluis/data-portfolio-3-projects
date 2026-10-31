@@ -1,60 +1,44 @@
-# Business Data Portfolio
+# Project 3: Predictive Customer Churn Engine
 
-This repository contains a three-project portfolio demonstrating practical business-focused data work across analytics, automation, and predictive modeling.
+## Business Challenge
+A subscription-based SaaS company was experiencing ongoing customer attrition and lacked an early warning system to identify high-risk accounts before they canceled. This created a reactive customer success model with avoidable revenue impact.
 
-## Project Structure
+## Objectives
+- predict which customers are likely to churn
+- identify behavioral patterns linked to attrition
+- support proactive customer success outreach
+- reduce avoidable revenue loss from cancellations
 
-```text
-.
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-├── docs/
-│   ├── executive-summary.md
-│   └── project-roadmap.md
-├── project_01_sales_dashboard/
-│   ├── README.md
-│   ├── data/
-│   ├── scripts/
-│   └── dashboard/
-├── project_02_real_time_data_pipeline/
-│   ├── README.md
-│   ├── data/
-│   ├── scripts/
-│   └── outputs/
-├── project_03_churn_prediction_engine/
-│   ├── README.md
-│   ├── data/
-│   ├── scripts/
-│   └── outputs/
-└── assets/
-```
+## Success Criteria
+- maintain a strong recall rate for churn detection
+- define a practical risk threshold for customer intervention
+- generate an outreach-ready list of high-risk accounts
 
-## Repository Goals
+## Tools
+- Python
+- NumPy
+- Pandas
+- scikit-learn
+- Random Forest Classifier
 
-- Showcase professional data storytelling
-- Highlight business impact and measurable outcomes
-- Demonstrate technical capability across multiple project types
-- Present a portfolio suitable for hiring managers and clients
+## Methodology
+1. load and validate customer engagement data
+2. engineer predictive features from activity and account signals
+3. split the data into training and validation sets
+4. train a classification model to estimate churn risk
+5. evaluate performance with classification metrics
+6. rank accounts by risk probability and export high-priority outreach targets
 
-## How to Use This Repository
+## Model Summary
+The model estimates the likelihood that a customer will churn based on engagement signals such as tenure, payment profile, support usage, and login activity. Accounts above a defined threshold are flagged for customer success outreach.
 
-1. Review the root README for the portfolio overview.
-2. Open each project folder for detailed project context.
-3. Explore scripts and outputs to understand the methodology.
-4. Adapt the structure to a personal GitHub profile or client-facing portfolio.
+## Business Impact
+This project demonstrates the value of predictive analytics for business protection. Instead of reacting after customers leave, the organization can identify risk early and intervene before the churn event occurs.
 
-## Recommended Workflow
-
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-## License
-
-This project is licensed under the MIT License.
+## Relevant Skills Demonstrated
+- predictive modeling
+- machine learning evaluation
+- customer risk segmentation
+- feature engineering
+- data-driven retention strategy
+- business value translation
