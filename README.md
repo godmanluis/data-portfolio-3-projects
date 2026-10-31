@@ -141,9 +141,12 @@ This portfolio is suitable for roles such as:
 
 ## Contact
 
-- LinkedIn: [Your LinkedIn URL]
-- Email: [your.email@example.com]
-- GitHub: [your GitHub profile URL]
+- LinkedIn: https://www.linkedin.com/in/emmanuel-gracia-louis-a62ba6120?trk=contact-info
+
+- 
+- Email: louisemmanuelgracia@lafuseetech.net
+- 
+- GitHub: https://github.com/godmanluis/godmanluis
 
 ---
 
